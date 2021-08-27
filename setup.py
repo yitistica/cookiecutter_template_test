@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
-requirements = [ ]
+requirements = []
 
 test_requirements = ['pytest>=3', ]
 
@@ -37,6 +37,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/yitistica/cookiecutter_template_test',
-    version='0.1.0',
+    version='0.1.1',
     zip_safe=False,
 )
